@@ -17,16 +17,17 @@ public class GoofyNames {
 		String name=JOptionPane.showInputDialog("whats your name");
 		for (int i = 0; i < 4; i++) {
 		System.out.println(name.charAt(i));	
-
+		if (i % 2 == 1) {
+			System.out.println(name.toUpperCase());
+		
+		}
+				
 		
 		
 		
-				}
 		
 		
-		
-		
-		
+		}
 		// 3. Loop through each character of the name (steps 4 - 6).
 		//    HINT: Use .length() to determine the number of characters in the String.
 
