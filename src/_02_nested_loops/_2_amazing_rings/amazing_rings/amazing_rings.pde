@@ -1,7 +1,8 @@
 int x1=75;
 int x2=425;
 float speed = .5;
-float sped =-.5;
+float sped = -.5;
+
 void setup() {
   size(500, 500);
 }
@@ -26,7 +27,7 @@ void draw() {
     x2+=sped;
     x1+= speed;
     if (x1>=425) {
-      speed = -0.5;
+      speed = -0.25;
     }
 
     x1+= speed;
@@ -35,7 +36,7 @@ void draw() {
     }
     x1+= speed;
      if (x2>=425) {
-      sped = -0.5;
+      sped = -0.25;
     }
     x2+=sped;
     if (x2<=75) {
