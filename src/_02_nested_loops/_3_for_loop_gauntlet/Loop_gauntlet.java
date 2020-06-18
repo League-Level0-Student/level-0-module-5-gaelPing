@@ -44,7 +44,8 @@ public class Loop_gauntlet {
 //			Ber = 0;
 //		}
 		for (int i = 1; i < 9; i++) {
-			System.out.println(i+""+i + "");
+			System.out.println(i+" "+i + "");
+			
 		}
 
 	}
