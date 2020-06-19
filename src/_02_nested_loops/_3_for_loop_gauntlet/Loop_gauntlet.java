@@ -33,20 +33,39 @@ public class Loop_gauntlet {
 //			age++;
 //		}
 //		System.out.println("this year im going to be 15 years old");
-//		int Num = 0;
-//		int Ber = 0;
 //		for (int i = 0; i < 3; i++) {
 //			for (int j = 0; j < 3; j++) {
-//				System.out.println(Num + " " + Ber);
-//				Ber++;
-//			}
-//			Num++;
-//			Ber = 0;
+//				System.out.println(i + " " + j);
+//			}	
 //		}
-		for (int i = 1; i < 9; i++) {
-			System.out.println(i+" "+i + "");
+//		for (int i = 1; i < 10; i+=3) {
+//			for (int j = i; j < i+3; j++) {
+//			System.out.print(j+" ");	
+//			}
+//			System.out.println();
+//			
+//		}
+//		for (int i = 1; i < 101; i+=10) {
+//			for (int j = i; j < i+10; j++) {
+//			System.out.print(j+",");	
+//			}
+//			System.out.println();
+//			
+//		}
+//		for (int i = 1; i < 7; i+=1) {
+//			for (int j = i; j < i+i; j++) {
+//			System.out.print("*"+" ");	
+//			}
+//			System.out.println();
+//			
+//		}
+		for (int i = 0; i > -1; i--) {
+			for (int j = 100; j > -1; j-=1) {
+				
 			
+			System.out.println(j);
+			}
 		}
-
 	}
+
 }
