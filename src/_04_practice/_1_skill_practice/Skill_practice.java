@@ -24,6 +24,7 @@ public class Skill_practice {
 //		System.out.println(i);
 //	}
 //}
+JOptionPane.showInputDialog("message");
 //
 Random robert  = new Random();
 Random rob  = new Random();
