@@ -25,11 +25,13 @@ public class Skill_practice {
 //	}
 //}
 //
-//Random robert  = new Random(20-0);
-//
-//System.out.print(robert);
-//
-//String city=JOptionPane.showInputDialog("where do you live.");
+Random robert  = new Random();
+Random rob  = new Random();
+System.out.println(robert.nextInt(20));
+System.out.println(rob.nextInt(10));
+
+
+//String city=JOptionPane.showInputDialog("what city do you live in.");
 //
 //if (city.equals("San Diego")) {
 //	System.out.println("you live in America's finest city.");
