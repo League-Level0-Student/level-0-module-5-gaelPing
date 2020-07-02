@@ -7,6 +7,7 @@ import javax.swing.JOptionPane;
 import org.jointheleague.graphical.robot.Robot;
 
 public class Obedient_robot {
+static Robot delta = new Robot();	
 	public static void main(String[] args) {
 		String move = JOptionPane.showInputDialog("what do you want to draw");
 		
@@ -21,7 +22,7 @@ public class Obedient_robot {
 
 	public static void drawSquare() {
 		String color = JOptionPane.showInputDialog("what color do you want" + "\n red , blue ,or green");
-		Robot delta = new Robot();
+		
 		delta.penDown();
 		if (color.equals("red")) {
 			delta.setPenColor(Color.red);
