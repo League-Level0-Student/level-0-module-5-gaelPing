@@ -24,12 +24,16 @@ public class Skill_practice {
 //		System.out.println(i);
 //	}
 //}
-JOptionPane.showInputDialog("message");
-//
-Random robert  = new Random();
-Random rob  = new Random();
-System.out.println(robert.nextInt(20));
-System.out.println(rob.nextInt(10));
+//JOptionPane.showInputDialog("message");
+////
+//Random robert  = new Random();
+//Random rob  = new Random();
+//System.out.println(robert.nextInt(100-50));
+//System.out.println(rob.nextInt(10));
+		String age = JOptionPane.showInputDialog("How old are you?");
+		int old = Integer.parseInt(age);
+		old += 1;
+		System.out.println("Happy birthday! You are now "+old+" years old");
 
 
 //String city=JOptionPane.showInputDialog("what city do you live in.");
@@ -59,10 +63,15 @@ System.out.println(rob.nextInt(10));
 //
 //	String school=JOptionPane.showInputDialog("what is the name of your school.");	
 //		System.out.println(school+" is an amazing school.");
+		doubleNumber();
 	}
 
-}
 
+static void doubleNumber(){
+String doubleNumber = JOptionPane.showInputDialog("tell me a number");
+int num =Integer.parseInt(doubleNumber);
+System.out.println("here is that number times 2"+ num * 2);
+}}
 //		SkillPractice skills = new SkillPractice();
 //		           skills.skill1();
 //		           skills.skill2();
